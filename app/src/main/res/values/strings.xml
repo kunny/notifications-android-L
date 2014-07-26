@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Notifications</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_lockscreen">Lockscreen Visibility</string>
+    <string name="title_activity_bridge">Notification Bridge</string>
+    <string name="title_activity_priority">Priorities</string>
+    <string name="title_activity_color">Notification color</string>
+    <string name="title_activity_notification_with_actions">With Action</string>
+    <string name="title_activity_voice_input">Voice Input</string>
+    <string name="title_activity_voice_input_result">Voice input result</string>
+
+    <string-array name="reply_choices">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string name="title_activity_paging">Paging notifications</string>
+    <string name="title_activity_stack">Stacking notifications</string>
+
+</resources>

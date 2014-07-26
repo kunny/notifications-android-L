@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context="com.androidhuman.example.notifications.PriorityActivity">
+
+    <Button android:id="@+id/btn_activity_priority_max"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAX" />
+
+    <Button android:id="@+id/btn_activity_priority_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HIGH" />
+
+    <Button android:id="@+id/btn_activity_priority_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEFAULT" />
+
+    <Button android:id="@+id/btn_activity_priority_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOW" />
+
+    <Button android:id="@+id/btn_activity_priority_min"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MIN" />
+
+    <Button android:id="@+id/btn_activity_priority_hun_with_actions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Heads-up notification with actions" />
+
+    <Button android:id="@+id/btn_activity_priority_fullscreen_intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification with fullscreenIntent" />
+
+</LinearLayout>
